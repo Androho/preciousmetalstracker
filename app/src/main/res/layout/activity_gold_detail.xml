@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollIndicators="right">
+
+    <include layout="@layout/toolbar" />
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!---->
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@mipmap/ic_gold_coin"/>-->
+            <!--&lt;!&ndash;app:civ_border_color="@color/my_divider"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:civ_border_width="0px"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:civ_fill_color="@color/my_divider" &ndash;&gt;-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/gold_desc"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Gold prise:" />-->
+
+    <!--</LinearLayout>-->
+
+    <include layout="@layout/card_metal"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollIndicators="right">
+    <TextView
+        android:id="@+id/testText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gold trend" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:title="Graph Title"
+        app:seriesColor="#00cc00"
+        app:seriesTitle="Foobar"
+        app:seriesType="line" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_calculator"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eeee" />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
