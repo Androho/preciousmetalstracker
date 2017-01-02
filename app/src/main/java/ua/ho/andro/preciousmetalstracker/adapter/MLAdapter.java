@@ -1,4 +1,4 @@
-package ua.ho.andro.preciousmetalstracker;
+package ua.ho.andro.preciousmetalstracker.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.CardView;
@@ -8,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import ua.ho.andro.preciousmetalstracker.DataMetalList;
+import ua.ho.andro.preciousmetalstracker.R;
 
 
 public class MLAdapter extends RecyclerView.Adapter<MLAdapter.ViewHolder> {

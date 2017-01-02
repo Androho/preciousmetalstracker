@@ -1,4 +1,4 @@
-package ua.ho.andro.preciousmetalstracker;
+package ua.ho.andro.preciousmetalstracker.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

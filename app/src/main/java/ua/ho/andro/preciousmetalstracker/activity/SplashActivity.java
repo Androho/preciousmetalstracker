@@ -1,9 +1,11 @@
-package ua.ho.andro.preciousmetalstracker;
+package ua.ho.andro.preciousmetalstracker.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+
+import ua.ho.andro.preciousmetalstracker.R;
 
 public class SplashActivity extends AppCompatActivity {
 

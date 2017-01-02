@@ -2,13 +2,14 @@ package ua.ho.andro.preciousmetalstracker;
 
 public class DataMetalList {
 
-    String dataMetalName;
-    String dataMetalVol;
-    String dataMetalCoast;
-    int dataPhotoId;
-    int dataTrendId;
+    public String dataMetalName;
+    public String dataMetalVol;
+    public String dataMetalCoast;
+    public int dataPhotoId;
+    public int dataTrendId;
 
-    DataMetalList(int photoId,String metalName, int trendId, String metalCoast, String metalVol) {
+
+    public DataMetalList(int photoId, String metalName, int trendId, String metalCoast, String metalVol) {
         this.dataMetalName = metalName;
         this.dataMetalVol = metalVol;
         this.dataMetalCoast = metalCoast;
